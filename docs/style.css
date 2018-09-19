@@ -15,6 +15,11 @@ body {
 footer{
 	background: rgba(189, 195, 199, 1);
 }
+.f-content{
+	padding: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
 .bg-dark{
 	background:#3c3c3c;
 	color: white;
