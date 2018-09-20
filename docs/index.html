@@ -3,20 +3,36 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="./highlight/styles/tomorrow-night.css">
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
 	<script src="./highlight/highlight.pack.js"></script>
 	<script>hljs.initHighlightingOnLoad();</script>
 	<title>8-Grid|Grid-layoutCSS</title>
 </head>
 <body>
 	<h1 style="text-align:center;font-size:44px;font-weight:100">8Grid</h1>
+	<p style="text-align:center;">最新バージョン:0.2</p>
 	<hr>
 	<div class="content">
+		<!-- Place this tag where you want the button to render. -->
+		<a class="github-button" href="https://github.com/kikiriko200/8-Grid" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star kikiriko200/8-Grid on GitHub">Star</a>
+		<a class="github-button" href="https://github.com/kikiriko200/8-Grid" data-icon="octicon-defalt" data-size="large" aria-label="kikiriko200/8-Grid on GitHub">View on GitHub</a>
 		<h2>8Gridとは</h2>
 		<p>
 			8Gridは、グリッドレイアウトで12等分してもそんなに細分化しないやろw<br>
 			という考えのもと、8つにしたらどうだろう…ということで作ったものです。<br>
 			PC/タブレット/スマホの三種類のクラスを持っており、各対応ごとにCSSファイルを分けることもできます。
 		</p>
+		<h2>特徴</h2>
+		<div class="r" style="border:0">
+			<div class="col-4 col-m-4">
+				<h3>超軽量</h3>
+				<p>all.min.cssのgzip後容量はわずか0.2kBほど(262B)となっており、あなたのサイトの高速化に寄与します。</p>
+			</div>
+			<div class="col-4 col-m-4">
+				<h3>シンプル</h3>
+				<p>ほかの様々なグリッドCSSと同じようなクラス名を使用。学習コストをかけることなくスムーズに利用を開始できます。</p>
+			</div>
+		</div>
 		<h2>ダウンロード</h2>
 		<h3>CDN(jsdelivr)</h3>
 		<h4>最新バージョン:v0.2</h4>
@@ -36,16 +52,20 @@ PC用CSS
 </code>
 		</pre>
 		<h3>CDN(rawgit)</h3>
-		<h4>最新バージョン:v0.1(v0.2対応予定あり)</h4>
+		<h4>最新バージョン:v0.2</h4>
 		<pre>
-			<code>全種類用CSS
-&lt;link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/8a15df92/css/8grid.all.min.css"&gt;
+			<code>全種類用CSS(3分割追加済み)
+&lt;link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/e125e9f8/css/8grid.all.min.css"&gt;
+全種類用CSS(3分割追加なし)
+&lt;link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/e125e9f8/css/8grid.notall.min.css"&gt;
 PC用CSS
-&lt;link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/8a15df92/css/8grid.pc.min.css"&gt;
+&lt;link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/e125e9f8/css/8grid.pc.min.css"&gt;
 タブレット用CSS
-&lt;link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/8a15df92/css/8grid.tb.min.css"&gt;
+&lt;link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/e125e9f8/css/8grid.tb.min.css"&gt;
 スマホ用CSS
-&lt;link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/8a15df92/css/8grid.sp.min.css"&gt;
+&lt;link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/e125e9f8/css/8grid.sp.min.css"&gt;
+3分割追加用CSS
+&lt;link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/e125e9f8/css/8grid.add.min.css"&gt;
 			</code>
 		</pre>
 		<h3>GitHub</h3>
