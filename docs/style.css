@@ -119,7 +119,7 @@ q{
 		width: calc(100%/3*2);
 	}
 }
-@media screen and ( max-width: 600px ){
+@media screen and ( max-width: 767px ){
 	[class*="col-m-"] {
 		width: 100%;
 	}
