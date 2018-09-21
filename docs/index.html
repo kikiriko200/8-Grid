@@ -9,29 +9,81 @@
 	<title>8-Grid|Grid-layoutCSS</title>
 </head>
 <body>
-	<h1 style="text-align:center;font-size:44px;font-weight:100">8Grid</h1>
-	<p style="text-align:center;">最新バージョン:0.2</p>
-	<hr>
+	<header>
+		<div class="content">
+			<h1 style="font-size:72px;font-weight:100">8-Grid</h1>
+			<p style="font-size:20px;">8-Gridは軽量・シンプルなレスポンシブ対応のCSSグリッドフレームワークです。</p>
+			<p style="font-size:24px;">最新バージョン:0.2</p>
+			<a class="github-button" href="https://github.com/kikiriko200/8-Grid" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star kikiriko200/8-Grid on GitHub">Star</a>
+		</div>
+	</header>
 	<div class="content">
-		<!-- Place this tag where you want the button to render. -->
-		<a class="github-button" href="https://github.com/kikiriko200/8-Grid" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star kikiriko200/8-Grid on GitHub">Star</a>
-		<a class="github-button" href="https://github.com/kikiriko200/8-Grid" data-icon="octicon-defalt" data-size="large" aria-label="kikiriko200/8-Grid on GitHub">View on GitHub</a>
-		<h2>8Gridとは</h2>
+		<h2>8-Gridとは</h2>
 		<p>
-			8Gridは、グリッドレイアウトで12等分してもそんなに細分化しないやろw<br>
+			8-Gridは、グリッドレイアウトで12等分してもそんなに細分化しないやろw<br>
 			という考えのもと、8つにしたらどうだろう…ということで作ったものです。<br>
 			PC/タブレット/スマホの三種類のクラスを持っており、各対応ごとにCSSファイルを分けることもできます。
 		</p>
 		<h2>特徴</h2>
-		<div class="r" style="border:0">
-			<div class="col-4 col-m-4">
-				<h3>超軽量</h3>
-				<p>all.min.cssのgzip後容量はわずか0.2kBほど(262B)となっており、あなたのサイトの高速化に寄与します。</p>
-			</div>
-			<div class="col-4 col-m-4">
-				<h3>シンプル</h3>
-				<p>ほかの様々なグリッドCSSと同じようなクラス名を使用。学習コストをかけることなくスムーズに利用を開始できます。</p>
-			</div>
+			<div class="r">
+				<div class="col-1-3">
+					<h3>超軽量</h3>
+					<p>
+						all.min.cssのgzip後容量はわずか0.2kBほど(262B)となっており、あなたのサイトの高速化に寄与します。<br>
+						また、他の主要グリッドフレームワークと比べても軽量であることが分かります。(下表参照)
+					</p>
+				</div>
+				<div class="col-1-3">
+					<h3>シンプル</h3>
+					<p>ほかの様々なグリッドCSSと同じようなクラス名を使用。学習コストをかけることなくスムーズに利用を開始できます。</p>
+				</div>
+				<div class="col-1-3">
+					<h3>レスポンシブ対応</h3>
+					<p>
+						タブレット・スマホ用CSS(*)完備。特別な用意をわざわざする必要はありません。<br>
+						*-各ブレークポイントは以下の通りです。<br>
+						タブレット:768px~1024px<br>
+						スマホ:~767px
+					</p>
+				</div>
+		</div>
+		<div class="scroll">
+			<table>
+				<thead>
+					<tr>
+						<td colspan="3">
+							主要CSSグリッドフレームワークとの比較(<a href="https://checkgzipcompression.com" alt="checkgzipcompression.com">checkgzipcompression.com</a>でgzip後サイズを比較)
+						</td>
+					</tr>
+					<tr>
+						<th>フレームワーク名</th>
+						<th>公式サイト</th>
+						<th>gzip後サイズ</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Milligrid</td>
+						<td><a href="https://bencoveney.github.io/Milligrid/" target="_blank" rel="nofollow">https://bencoveney.github.io/Milligrid/</a></td>
+						<td>786B</td>
+					</tr>
+					<tr>
+						<td>Simple-Grid</td>
+						<td><a href="https://www.simplegrid.io/" target="_blank" rel="nofollow">https://www.simplegrid.io/</a></td>
+						<td>635B</td>
+					</tr>
+					<tr>
+						<td>iota</td>
+						<td><a href="http://korywakefield.com/iota/" target="_blank" rel="nofollow">http://korywakefield.com/iota/</a></td>
+						<td>584B</td>
+					</tr>
+					<tr>
+						<td>8-Grid</td>
+						<td><a href="https://kikiriko200.github.io/8-Grid/" target="_blank" rel="nofollow">https://kikiriko200.github.io/8-Grid/</a></td>
+						<td>262B</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 		<h2>ダウンロード</h2>
 		<h3>CDN(jsdelivr)</h3>

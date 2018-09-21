@@ -4,13 +4,34 @@
     src: url('//cdn.plusminus.io/font/webkoruri/20140628/WebKoruri.eot?#iefix') format('embedded-opentype');
     src: url('//cdn.plusminus.io/font/webkoruri/20140628/WebKoruri.woff') format('woff'),
          url('//cdn.plusminus.io/font/webkoruri/20140628/WebKoruri.ttf') format('truetype');
-    
-    /*  for fuck'n chrome  */
     src: url(//cdn.plusminus.io/font/webkoruri/20140628/WebKoruri.woff) format('woff'); 
 }
 body {
+	margin: 0;
+	box-sizing: border-box;
 	font-family: Koruri;
-	background: rgba(228, 233, 237, 1);
+	text-rendering : optimizeSpeed;
+	background: aliceblue;
+}
+header{
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(-45deg, rgba(238, 238, 238, 1), rgba(25, 181, 254, 1));
+	color: white;
+}
+header h1{
+	white-space: nowrap;
+}
+header .content{
+	background: rgba(0,0,0,0);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color: inherit;
+	text-align: center;
 }
 footer{
 	background: rgba(189, 195, 199, 1);
@@ -26,9 +47,9 @@ footer{
 }
 .content{
 	padding: 20px;
-	background: rgba(238, 238, 238, 1);
 	max-width: 1200px;
 	margin: 0 auto;
+	background: #fff;
 }
 .r{
 	border:1px solid;
@@ -42,6 +63,31 @@ footer{
 q{
 	background: #ddd;
 }
+caption{
+	font-size: 12px;
+}
+table, th, td {
+	margin-top: 50px;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  line-height: 1.5;
+}
+tr:nth-child(odd){
+	background: #ccc;
+}
+.scroll{
+overflow: auto;
+white-space: nowrap;
+}
+.scroll::-webkit-scrollbar{
+ height: 5px;
+}
+.scroll::-webkit-scrollbar-track{
+ background: #F1F1F1;
+}
+.scroll::-webkit-scrollbar-thumb {
+ background: #BCBCBC;
+}
 /*grid*/
 .r{
 	display: flex;
@@ -51,6 +97,9 @@ q{
 .v960{
 	max-width: 960px;
 }
+[class*="col-"] {
+		padding: 10px;
+	}
 .col-1{
 	width: 12.5%;
 }
