@@ -8,7 +8,6 @@
 }
 body {
 	margin: 0;
-	box-sizing: border-box;
 	font-family: Koruri;
 	text-rendering : optimizeSpeed;
 	background: aliceblue;
@@ -53,6 +52,7 @@ footer{
 }
 .r{
 	border:1px solid;
+	box-sizing: border-box;
 }
 .space{
 	height: 50px;
@@ -99,6 +99,7 @@ white-space: nowrap;
 }
 [class*="col-"] {
 		padding: 10px;
+		box-sizing: border-box;
 	}
 .col-1{
 	width: 12.5%;

@@ -1,6 +1,7 @@
 /*grid*/
 .r{
 	display: flex;
+	flex-wrap: wrap;
 	margin: 0 auto;
 	width: 100%;
 }
@@ -35,9 +36,6 @@
 	[class*="col-"] {
 		width: 100%;
 	}
-	.r{
-    flex-wrap: wrap;
-	}
 	.col-m-1{
 		width: 12.5%;
 	}
@@ -64,14 +62,8 @@
 	}
 }
 @media screen and ( max-width: 767px ){
-	[class*="col-"] {
-		width: 100%;
-	}
 	[class*="col-m-"] {
 		width: 100%;
-	}
-	.r{
-    flex-wrap: wrap;
 	}
 	.col-s-1{
 		width: 12.5%;

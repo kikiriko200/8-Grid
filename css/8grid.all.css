@@ -3,8 +3,9 @@
 	display: flex;
 	margin: 0 auto;
 	width: 100%;
+	flex-wrap: wrap;
 }
-.r.v960{
+.v960{
 	max-width: 960px;
 }
 .col-1{
@@ -41,9 +42,6 @@
 	[class*="col-"] {
 		width: 100%;
 	}
-	.r{
-    flex-wrap: wrap;
-	}
 	.col-m-1{
 		width: 12.5%;
 	}
@@ -76,14 +74,8 @@
 	}
 }
 @media screen and ( max-width: 767px ){
-	[class*="col-"] {
-		width: 100%;
-	}
 	[class*="col-m-"] {
 		width: 100%;
-	}
-	.r{
-    flex-wrap: wrap;
 	}
 	.col-s-1{
 		width: 12.5%;
