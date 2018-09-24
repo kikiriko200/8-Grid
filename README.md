@@ -12,37 +12,37 @@ Latest Release: [Here](https://github.com/kikiriko200/8-Grid/releases/latest)
 2. Use a CDN.
 
 ## CDN　List
-### jsdelivr(v0.2)
+### jsdelivr(v0.3)
 ```HTML
 for All(included Trisect)
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.2/css/8grid.all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.3/css/8grid.all.min.css">
 for All(NOT included Trisect)
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.2/css/8grid.notall.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.3/css/8grid.notall.min.css">
 for PC
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.2/css/8grid.pc.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.3/css/8grid.pc.min.css">
 for Tablet
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.2/css/8grid.tb.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.3/css/8grid.tb.min.css">
 for Smartphone
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.2/css/8grid.sp.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.3/css/8grid.sp.min.css">
 add Trisect
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.2/css/8grid.add.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.3/css/8grid.add.min.css">
 ```
 
-### Rawgit(v0.2)
+### Rawgit(v0.3)
 
 ```HTML
 for All(included Trisect)
-<link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/e125e9f8/css/8grid.all.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/adf9b37/css/8grid.all.min.css">
 for All(NOT included Trisect)
-<link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/e125e9f8/css/8grid.notall.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/adf9b37/css/8grid.notall.min.css">
 for PC
-<link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/e125e9f8/css/8grid.pc.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/adf9b37/css/8grid.pc.min.css">
 for Tablet
-<link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/e125e9f8/css/8grid.tb.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/adf9b37/css/8grid.tb.min.css">
 for Smartphone
-<link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/e125e9f8/css/8grid.sp.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/adf9b37/css/8grid.sp.min.css">
 add Trisect
-<link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/e125e9f8/css/8grid.add.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/adf9b37/css/8grid.add.min.css">
 ```
 
 ## Usage
