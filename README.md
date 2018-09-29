@@ -2,6 +2,8 @@
 
 **&copy;2018- DAFU.**
 
+[![minzipped size](https://img.shields.io/badge/minzipped%20size-254B-brightgreen.svg)](https://checkgzipcompression.com/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fkikiriko200%2F8-Grid%40v0.3%2Fcss%2F8grid.all.min.css)
+
 8-Grid is a simple and lightweight flex-based Grid-system.
 
 HP:[https://dafu.cf/8-Grid/](https://dafu.cf/8-Grid/)
