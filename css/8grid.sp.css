@@ -1,4 +1,8 @@
-/*grid*/
+/*
+8-Grid
+(c) 2018- DAFU (GitHub:kikiriko200)
+License:MIT(https://opensource.org/licenses/MIT)
+*/
 .r{
 	display: flex;
 	flex-wrap: wrap;
@@ -6,7 +10,7 @@
 	width: 100%;
 }
 @media screen and ( max-width: 767px ){
-	[class*="col-m-"] {
+	[class*="col-"] {
 		width: 100%;
 	}
 	.col-s-1{
