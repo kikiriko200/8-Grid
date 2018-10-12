@@ -39,3 +39,9 @@ License:MIT(https://opensource.org/licenses/MIT)
 .col-8{
 	width: 100%;
 }
+.col-1-3{
+	width: 33.33%;
+}
+.col-2-3{
+	width: 66.66%;
+}

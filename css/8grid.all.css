@@ -40,13 +40,13 @@ License:MIT(https://opensource.org/licenses/MIT)
 	width: 100%;
 }
 .col-1-3{
-	width: calc(100%/3);
+	width: 33.33%;
 }
 .col-2-3{
-	width: calc(100%/3*2);
+	width: 66.66%;
 }
 @media screen and ( max-width: 1024px ){
-	[class*="col-"] {
+	[class*=col-]{
 		width: 100%;
 	}
 	.col-m-1{
@@ -74,14 +74,14 @@ License:MIT(https://opensource.org/licenses/MIT)
 		width: 100%;
 	}
 	.col-m-1-3{
-		width: calc(100%/3);
+		width: 33.33%;
 	}
 	.col-m-2-3{
-		width: calc(100%/3*2);
+		width: 66.66%;
 	}
 }
 @media screen and ( max-width: 767px ){
-	[class*="col-m-"] {
+	[class*=col-]{
 		width: 100%;
 	}
 	.col-s-1{
@@ -109,9 +109,9 @@ License:MIT(https://opensource.org/licenses/MIT)
 		width: 100%;
 	}
 	.col-s-1-3{
-		width: calc(100%/3);
+		width: 33.33%;
 	}
 	.col-s-2-3{
-		width: calc(100%/3*2);
+		width: 66.66%;
 	}
 }
