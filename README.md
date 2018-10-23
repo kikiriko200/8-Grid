@@ -2,7 +2,7 @@
 
 **&copy;2018- DAFU.**
 
-[![minzipped size](https://img.shields.io/badge/minzipped%20size-254B-brightgreen.svg)](https://checkgzipcompression.com/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fkikiriko200%2F8-Grid%40v0.3%2Fcss%2F8grid.all.min.css)
+[![minzipped size](https://img.shields.io/badge/minzipped%20size-333B-brightgreen.svg)](https://checkgzipcompression.com/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fkikiriko200%2F8-Grid%40v0.4.1.1%2Fcss%2F8grid.all.min.css)
 
 8-Grid is a simple and lightweight flex-based Grid-system.
 
@@ -17,29 +17,16 @@ Latest Release: [Here](https://github.com/kikiriko200/8-Grid/releases/latest)
 2. Use a CDN.
 
 ## CDN　List
-### jsdelivr(v0.4)
+### jsdelivr(v0.4.1)
 ```HTML
 for All
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.4/css/8grid.all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.4.1/css/8grid.all.min.css">
 for PC
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.4/css/8grid.pc.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.4.1/css/8grid.pc.min.css">
 for Tablet
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.4/css/8grid.tb.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.4.1/css/8grid.tb.min.css">
 for Smartphone
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.4/css/8grid.sp.min.css">
-```
-
-### Rawgit(v0.3)
-
-```HTML
-for All
-<link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/adf9b37/css/8grid.all.min.css">
-for PC
-<link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/adf9b37/css/8grid.pc.min.css">
-for Tablet
-<link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/adf9b37/css/8grid.tb.min.css">
-for Smartphone
-<link rel="stylesheet" href="https://cdn.rawgit.com/kikiriko200/8-Grid/adf9b37/css/8grid.sp.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kikiriko200/8-Grid@v0.4.1/css/8grid.sp.min.css">
 ```
 
 ## Usage
